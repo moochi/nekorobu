@@ -13,7 +13,7 @@ public class Food : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		m_Target = GameObject.Find( "Lob" ).GetComponent<Rigidbody>();
+		m_Target = GameObject.Find( "lob_anim_fix" ).GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
