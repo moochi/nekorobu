@@ -14,7 +14,7 @@ function Fly()
 function Die1()
 {
 	animation.Play( "die1" );
-	yield WaitForSeconds( 3.0);
+	yield WaitForSeconds( 3.0 );
 	Destroy( gameObject );
 }
 

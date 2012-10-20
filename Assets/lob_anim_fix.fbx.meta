@@ -7,6 +7,7 @@ ModelImporter:
     4300004: model_ear_L
     7400000: Take 001 //// lob_anim_fix
     7400002: roll //// lob_anim_fix
+    7400004: die1 //// lob_anim_fix
   serializedVersion: 10
   materials:
     importMaterials: 1
@@ -26,6 +27,11 @@ ModelImporter:
       firstFrame: 70
       lastFrame: 75
       wrapMode: 4
+      loop: 0
+    - name: die1
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 1
       loop: 0
   meshes:
     lODScreenPercentages: []

@@ -5,6 +5,7 @@ public class Trap : MonoBehaviour {
 
 	void OnCollisionEnter( Collision collision )
 	{
+		collision.gameObject.SendMessage("Die1");
 		//Debug.Log( "Hit:" + collision.gameObject.name );
 	}
 	
