@@ -21,5 +21,14 @@ public class DropObjectScript : MonoBehaviour {
 			//Instantiate(prefab, camera.ScreenToWorldPoint(vec), Quaternion.identity);
 			Food.Create(camera.ScreenToWorldPoint(vec));
 		}
+		if (Input.GetMouseButtonDown(1))
+		{
+			Vector3 vec = Input.mousePosition;
+			vec.z = 10f;
+			//Debug.Log(vec);
+ 
+			//Instantiate(prefab, camera.ScreenToWorldPoint(vec), Quaternion.identity);
+			Food.Create(camera.ScreenToWorldPoint(vec));
+		}
 	}
 }
