@@ -3,7 +3,7 @@ using System.Collections;
 
 public class DropObjectScript : MonoBehaviour {
 	
-	public GameObject prefab;
+	//public GameObject prefab;
 
 	// Use this for initialization
 	void Start () {
