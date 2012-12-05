@@ -1,7 +1,7 @@
 #pragma strict
 
 private var cleared : boolean;
-//var aTexture : GUITexture;
+var aTexture : Texture;
 
 function Start () {
 	cleared = false;
@@ -28,6 +28,10 @@ function OnGUI()
 {
 	if ( cleared == true)
 	{
-		//GUI.DrawTexture(Rect(10,10,60,60), aTexture, ScaleMode.ScaleToFit, true, 10.0f);
+		Debug.Log("cleared true! clear!!");
+		var sw : int = Screen.width;
+		var sh : int = Screen.height;
+		//GUI.Label(Rect( sw / 6, sh / 3, sw * 2 / 3, sh / 3 ), "CLEARED!!" );
+		GUI.DrawTexture(Rect( sw * 0.1, sh * 0.4 , sw * 0.8, sh * 0.2), aTexture, ScaleMode.ScaleToFit, true, 10.0f);
 	}
 }

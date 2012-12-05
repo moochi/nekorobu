@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LobAnimation.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Goal.js">
     <Files>
       <File FileName="Assets/Script/DropObjectScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/LobAnimation.js" Line="21" Column="22" />
+      <File FileName="Assets/LobAnimation.js" Line="1" Column="1" />
+      <File FileName="Assets/Goal.js" Line="35" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
