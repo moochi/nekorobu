@@ -10,12 +10,13 @@ function Start () {
 		goalPosition = GameObject.FindWithTag( "Goal" ).transform;
 		Debug.Log(goalPosition.position);
 	}
+	
+	var direction = transform.TransformDirection( Vector3.forward * moveSpeed );
+	rigidbody.AddForce(direction, ForceMode.Force);
 }
 
 function Update () {
 	RotateTowardsPosition( goalPosition.position, rotateSpeed );
-	var direction = transform.TransformDirection( Vector3.forward * moveSpeed );
-	rigidbody.AddForce(direction, ForceMode.Force);
 }
 
 function RotateTowardsPosition( targetPos : Vector3, rotateSpeed : float )
