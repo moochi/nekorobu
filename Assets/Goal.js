@@ -19,7 +19,7 @@ function OnTriggerEnter ( other : Collider )
 		{
 			cleared = true;
 			yield WaitForSeconds(2.0);
-			Application.LoadLevel("stage1");
+			Application.LoadLevel("stage2");
 		}
 	}
 }

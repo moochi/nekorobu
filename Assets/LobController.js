@@ -5,8 +5,10 @@ var rotateSpeed = 300.0;
 private var goalPosition : Transform; // goal
 
 function Start () {
-if ( !goalPosition ) {
+	if ( !goalPosition ) {
+		
 		goalPosition = GameObject.FindWithTag( "Goal" ).transform;
+		Debug.Log(goalPosition.position);
 	}
 }
 
