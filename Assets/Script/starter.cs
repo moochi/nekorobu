@@ -11,6 +11,7 @@ public class starter : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		
 		for( int i=0; i<m_CreateItemCount; ++i )
 		{
 			var t = Random.Range( 0, 3 );

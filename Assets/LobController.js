@@ -6,9 +6,7 @@ private var goalPosition : Transform; // goal
 
 function Start () {
 	if ( !goalPosition ) {
-		
 		goalPosition = GameObject.FindWithTag( "Goal" ).transform;
-		Debug.Log(goalPosition.position);
 	}
 	
 	var direction = transform.TransformDirection( Vector3.forward * moveSpeed );
@@ -28,6 +26,8 @@ function RotateTowardsPosition( targetPos : Vector3, rotateSpeed : float )
 	// Rotate
 	transform.Rotate( 0, angle, 0 );
 }
+
+
 
 // var Stone : GameObject; 
 // function Update() { 

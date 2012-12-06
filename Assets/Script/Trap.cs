@@ -6,8 +6,10 @@ public class Trap : MonoBehaviour {
 	void OnCollisionEnter( Collision collision )
 	{
 		if ( collision.gameObject.tag == "Lob" )
+		{
 			collision.gameObject.SendMessage("Die1");
-		Debug.Log( "Hit:" + collision.gameObject.name );
+		}
+		//Debug.Log( "Hit:" + collision.gameObject.name );
 	}
 	
 	// pos : ground position
